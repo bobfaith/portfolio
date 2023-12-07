@@ -1,0 +1,27 @@
+{
+  "name": "my-portfolio",
+  "version": "1.0.0",
+  "description": "My Personal Portfolio Site",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel src/index.html --open"
+  },
+  "author": "Babin Chettri",
+  "license": "ISC",
+  "browserslist": [
+    "defaults"
+  ],
+  "devDependencies": {
+    "parcel-bundler": "^1.12.5",
+    "sass": "^1.67.0",
+    "smooth-scrollbar": "^8.8.4"
+  },
+  "dependencies": {
+    "asset": "^0.4.13",
+    "assets": "^3.0.1",
+    "gsap": "^3.12.2",
+    "images": "^3.2.4",
+    "s": "^1.0.0",
+    "three": "^0.157.0"
+  }
+}

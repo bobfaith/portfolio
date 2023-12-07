@@ -1,0 +1,27 @@
+
+@keyframes rivetter {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(16px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
+@keyframes glitch {
+    0% {
+        box-shadow: inset -4px -4px 24px rgba(0, 0, 255, 0.4);
+    }
+    25% {
+        box-shadow: inset -2px -2px 24px rgba(255, 0, 0, 0.4);
+    }
+    50% {
+        box-shadow: inset 4px 4px 24px rgba(0, 0, 255, 0.4);;
+    }
+    100% {
+        transform: translateY(0);
+    }
+}

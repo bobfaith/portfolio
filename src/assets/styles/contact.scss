@@ -1,0 +1,85 @@
+
+.contact-container {
+    
+    display: grid;
+    grid-template-columns: 42rem minmax(9.6rem, 1fr) 56rem;
+    grid-template-rows: 1fr;
+    
+}
+
+.section-left {
+    // grid-row: 2;
+    line-height:1.55;
+    
+    &__text{
+        font-size: 2.4rem;
+        // margin-top:3.2rem;
+        line-height: 1.55;
+    }
+
+    &__bottom-content {
+        line-height: 1.55;
+        margin-top: 5.6rem;
+    }
+}
+
+
+.section-right {
+    grid-column: 3;
+    // grid-row: 2;
+
+}
+
+.form {
+
+    &__field:not(:first-child) {
+        margin-block: 3.2rem;
+    }
+
+    &__field {
+        display: flex;
+        flex-direction: column;
+        gap: .4rem;
+
+        & input {
+            font-size: 1.8rem;
+            padding: 1.2rem .8rem;
+            border: none;
+            border-bottom: 1px solid $color-neutral-2;
+            background-color: transparent;
+            // z-index: 1;
+        }
+
+        & input:focus {
+           color: $color-green-dark;
+           outline: none;
+        }
+    }
+}
+
+input[name="message-2"] {
+    margin-top: 3.2rem;
+}
+
+
+.contact {
+    position: relative;
+    // color: white;
+
+    &__bg {
+    background-image: url('../images/20.jpg');
+    // filter: invert(100%)saturate(30%)brightness(400%);
+
+    // background: transparent;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 120%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: .3;
+    z-index: -1;
+}
+}

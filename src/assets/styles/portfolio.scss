@@ -1,0 +1,95 @@
+.portfolio {
+    width: 100%;
+}
+
+.portfolioTable {
+    width: 100%;
+    height: auto;
+
+    &__row {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border-bottom: 1px solid $color-neutral-2;
+    }
+    
+    &__number {
+        font-size: 2rem;
+        color:$color-neutral-4;
+        font-weight: 600;
+    }
+        
+    &__data {
+        width: 80%;
+        height: auto;
+        display: flex;
+        align-items:center;
+        gap: 9.6rem;
+        padding-block: 3.6rem;
+        transition: all .5s ease-in-out;
+        overflow: clip;
+
+        & h3 {
+            font-size: 4rem;
+            color: $color-green-global;
+            font-weight: bold;
+            letter-spacing: 1px;
+            justify-self: flex-start;
+            transition: all .5s ease-in-out;
+        }
+
+        & p{
+            font-size: 2.4rem;
+            width: 40ch;
+            line-height: 1.55;
+            // margin-left: 12.2rem;
+            align-self: flex-start;
+            margin-inline: auto;
+            transition: all .5s ease-in-out;
+        }
+    }
+};
+
+
+.portfolio__img {
+    width: 440px;
+    transition: all .5s ease-in-out;
+}
+
+.portfolioTableBtn {  
+    cursor: pointer;
+    border: none;
+    margin-left: auto;
+    
+    & svg {
+        width: 40px;
+        height: 40px;
+    }
+
+}
+
+
+
+
+.green {
+    background-color: $color-neutral-1;
+    z-index: -1;
+
+    & .section__title::before,
+    & .section__title::after {
+        background-color: $color-neutral-2;
+    }
+}
+
+
+
+
+.show {
+    display: flex;
+}
+
+.hide {
+    display: none;
+    opacity: 0;
+}

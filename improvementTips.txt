@@ -1,0 +1,26 @@
+Apply splittext library to have splittext effect on the hero section.
+Apply clip-path to the image so that we can have the curtain effect on the image.
+Instead of accordion I can try horizontal scroll to the portrait section.
+Apply the Three.js fluid effect on the bg image I have in the contact setion.
+On the button I use the outline sliding effect on hover.
+
+
+On the about me page overlay a mask on the image and use gsap animation to either transition the overlay or make the opacity go from 1 to 0.
+
+
+"devDependencies": {
+    "parcel-bundler": "^1.12.5",
+    "sass": "^1.67.0",
+    "smooth-scrollbar": "^8.8.4"
+  },
+  "dependencies": {
+    "asset": "^0.4.13",
+    "assets": "^3.0.1",
+    "images": "^3.2.4",
+    "s": "^1.0.0",
+    "three": "^0.157.0"
+  }
+
+
+27/11/2023
+1. work on the second section of the SKILL the gsap animation is not working

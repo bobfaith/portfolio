@@ -1,0 +1,27 @@
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2.4rem 9rem;
+    font-size: 1.6rem;
+    font-weight: 600;
+    color: $color-green-global;
+}
+
+.copyright {
+    letter-spacing: 1px;
+    
+}
+
+.social {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+
+    &__icon:hover {
+        animation: glitch 1s linear;
+    }
+}
+
+.email {font-style: italic;}

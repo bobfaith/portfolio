@@ -1,0 +1,46 @@
+.container {
+    display: grid;
+    grid-template-columns: 35% 1fr 48%;
+    grid-template-rows: min-content 1fr;
+    // gap: 0 7.2rem;
+
+    &__left {
+        grid-column: 1;
+        grid-row: 2;
+    }
+
+    &__right {
+        grid-column: 3;
+        grid-row: 2;
+    }
+}
+
+
+
+.bio {
+    font-size:2.4rem;
+    line-height: 1.55;
+    // margin-top: 5.6rem;
+} 
+
+.profile-img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    margin-top: .8rem;
+}
+
+.about {
+    position: relative;
+}
+.line {
+    height: 3px;
+    // width: 35%;
+    width: 91%;
+    background-color: $color-neutral-2;
+    position: absolute;
+    left: 8rem;
+    bottom: calc($section-padding-block / 1);
+    bottom: 0;
+}

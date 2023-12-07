@@ -1,0 +1,29 @@
+
+.btn {
+    font-size: 1.8rem;
+    cursor: pointer;
+    background-color: $color-secondary;
+    color: $color-primary;
+    border: none;
+    transition: all 0.3s;
+
+    &:hover {
+        background-color: $color-neutral-3;
+        color: $color-secondary;
+        font-weight:500;
+    }
+
+    &:active {
+        transform: scale(0.98) translate(-1px,2px);
+    }
+}
+
+.navBtn {
+    padding: .8rem 1.6rem;
+}
+
+.submitBtn {
+    position: relative;
+    padding: 1.8rem 2.4rem;
+    margin-top: 3.2rem;
+}
